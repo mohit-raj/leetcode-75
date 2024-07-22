@@ -12,10 +12,3 @@ class Solution:
         return result   
     
 
-# Main code to test the function
-if __name__ == "__main__":
-    solution = Solution()
-    candies = [2, 3, 5, 1, 3]
-    extraCandies = 3
-    result = solution.kidsWithCandies(candies, extraCandies)
-    print(result)  # Output should be [True, True, True, False, True]
